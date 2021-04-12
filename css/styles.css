@@ -5,6 +5,15 @@
   --primary-white-color: #fff;
   --secondary-backgound: #f5f4fa;
 }
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: initial;
+}
+
 body {
   background-color: #e5e5e5;
   color: var(--primary-text-color);
