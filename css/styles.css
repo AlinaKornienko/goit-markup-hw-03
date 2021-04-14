@@ -76,6 +76,9 @@ body {
 .site-nav a:focus {
   color: var(--accent-color);
 }
+.site-nav.list.address > a {
+  margin-bottom: 9px;
+}
 .site-nav .link.current {
   color: var(--accent-color);
 }
@@ -89,18 +92,6 @@ body {
 }
 .contacts a:hover,
 .contacts a:focus {
-  color: var(--accent-color);
-}
-/* footer nav */
-.address-text {
-  color: #ffffff;
-  font-style: normal;
-}
-.address a {
-  color: rgba(255, 255, 255, 0.6);
-}
-.address a:hover,
-.address a:focus {
   color: var(--accent-color);
 }
 /* hero */
@@ -208,6 +199,21 @@ body {
 }
 .team.list h3 {
   margin-bottom: 10px;
+}
+/* footer nav */
+.address-text {
+  color: #ffffff;
+  font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+.address a {
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 9px;
+}
+.address a:hover,
+.address a:focus {
+  color: var(--accent-color);
 }
 .footer {
   padding-top: 60px;
