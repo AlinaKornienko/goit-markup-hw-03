@@ -36,6 +36,8 @@ body {
   padding-right: 15px;
 }
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 /* logo */
@@ -102,14 +104,20 @@ body {
   color: var(--accent-color);
 }
 /* hero */
+.hero {
+  text-align: center;
+  outline: 2px solid tomato;
+}
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 0;
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 /* button */
 .button {
@@ -145,12 +153,22 @@ body {
   color: var(--primary-white-color);
 }
 /* section */
+.section {
+  outline: 2px solid tomato;
+}
+.title {
+  margin-top: 0;
+}
 .section-title {
+  margin-top: 0;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+}
+p {
+  margin-bottom: 0;
 }
 /* skills */
 .skills .title {
