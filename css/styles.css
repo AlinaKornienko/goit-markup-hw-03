@@ -231,3 +231,20 @@ body {
   font-size: 16px;
   line-height: 1.87;
 }
+.section.portfolio {
+  margin-bottom: 94px;
+}
+.filter.list {
+  margin-bottom: 50px;
+}
+.portfolio.list img {
+  margin-bottom: 20px;
+}
+.portfolio.list h3 {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+.portfolio.list p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
