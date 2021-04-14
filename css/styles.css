@@ -161,6 +161,7 @@ body {
 .section.team {
   padding-top: 94px;
   padding-bottom: 94px;
+  margin-bottom: 0;
 }
 .title {
   margin-top: 0;
@@ -191,6 +192,27 @@ body {
   margin-top: 0;
   margin-bottom: 0;
 }
+/* team */
+.team-about {
+  font-size: 16px;
+  line-height: 1.19;
+}
+.list-title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team.list img {
+  margin-bottom: 30px;
+}
+.team.list h3 {
+  margin-bottom: 10px;
+}
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 /* portfolio */
 .list-title-portfolio {
   color: var(--title-text-color);
@@ -202,15 +224,4 @@ body {
 .portfolio-about {
   font-size: 16px;
   line-height: 1.87;
-}
-/* team */
-.team-about {
-  font-size: 16px;
-  line-height: 1.19;
-}
-.list-title {
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
 }
