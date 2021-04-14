@@ -13,11 +13,6 @@ html {
 *::after {
   box-sizing: initial;
 }
-.container {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
 
 body {
   background-color: #e5e5e5;
@@ -34,6 +29,11 @@ body {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+}
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .list {
   list-style: none;
@@ -55,6 +55,11 @@ body {
 .logo-second-footer {
   color: #ffffff;
 }
+/* page header */
+
+.page-header {
+}
+
 /* site nav */
 .site-nav a {
   color: #212121;
@@ -116,11 +121,14 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 32px;
 }
 .button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-family: Roboto;
+  min-width: 200px;
 }
 .button.filter {
   background-color: var(--secondary-backgound);
@@ -129,6 +137,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   font-family: Roboto;
+  padding: 6px 22px;
 }
 .button.filter:hover,
 .button.filter:focus {
