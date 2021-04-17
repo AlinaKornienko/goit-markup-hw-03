@@ -35,6 +35,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
+/* Утилит */
 .list {
   padding: 0;
   margin: 0;
@@ -42,6 +43,7 @@ body {
 }
 /* logo */
 .logo {
+  display: block;
   font-family: Raleway, cursive;
   font-weight: 700;
   font-size: 26px;
@@ -58,8 +60,18 @@ body {
   color: #ffffff;
 }
 /* page header */
-
 .page-header {
+  display: flex;
+}
+
+.page-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+}
+.main-nav {
+  display: flex;
 }
 
 /* site nav */
@@ -73,6 +85,7 @@ body {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+  margin-left: 93px;
   color: #212121;
   font-style: normal;
   font-weight: 500;
@@ -91,13 +104,13 @@ body {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-.auth-nav {
+.contacts {
   display: flex;
 }
-.contacts .auth-nav .list .item + .item {
-  margin-left: 50px;
-}
 .contacts a {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: #757575;
   font-weight: 500;
   font-size: 14px;
