@@ -11,7 +11,7 @@ html {
 *,
 *::before,
 *::after {
-  box-sizing: initial;
+  box-sizing: inherit;
 }
 
 body {
@@ -84,7 +84,7 @@ body {
 .site-nav {
   display: flex;
   margin-left: 93px;
-  margin-right: 331px;
+  margin-right: 33px;
 }
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
@@ -183,6 +183,7 @@ body {
 .section {
   margin-top: 94px;
   margin-bottom: 94px;
+  justify-content: center;
 }
 .section.team {
   padding-top: 94px;
@@ -256,6 +257,7 @@ body {
 }
 .team .list {
   display: flex;
+  justify-content: center;
 }
 .team-item:not(:last-child) {
   margin-right: 30px;
