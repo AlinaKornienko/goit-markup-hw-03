@@ -66,13 +66,13 @@ body {
 .site-nav {
   display: flex;
 }
-.site-nav .item {
+.site-nav .item:not(:last-child) {
   margin-right: 50px;
 }
-.site-nav .item:last-child {
-  margin-right: 0;
-}
 .site-nav a {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: #212121;
   font-style: normal;
   font-weight: 500;
@@ -90,6 +90,12 @@ body {
 }
 .site-nav .link.current {
   color: var(--accent-color);
+}
+.auth-nav {
+  display: flex;
+}
+.contacts .auth-nav .list .item + .item {
+  margin-left: 50px;
 }
 .contacts a {
   color: #757575;
@@ -110,17 +116,18 @@ body {
 }
 .hero-title {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 30;
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  margin-bottom: 30px;
 }
 /* button */
 .button {
+  border-radius: 4px;
+  padding: 10px 32px;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-family: Roboto;
@@ -129,23 +136,21 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
-  border-radius: 4px;
-  padding: 10px 32px;
 }
 .button.primary {
+  min-width: 200px;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-family: Roboto;
-  min-width: 200px;
 }
 .button.filter {
+  padding: 6px 22px;
   background-color: var(--secondary-backgound);
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   font-family: Roboto;
-  padding: 6px 22px;
 }
 .button.filter:hover,
 .button.filter:focus {
