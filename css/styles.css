@@ -31,7 +31,7 @@ body {
   overflow: hidden;
 }
 .container {
-  width: 1230px;
+  width: 1240px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -74,12 +74,14 @@ body {
 }
 .main-nav {
   display: flex;
+  justify-content: flex-start;
 }
 
 /* site nav */
 .site-nav {
   display: flex;
   margin-left: 93px;
+  margin-right: 331px;
 }
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
@@ -127,6 +129,7 @@ body {
 .contact-info:not(:last-child){
   margin-right: 50px;
 } 
+
 /* hero */
 .hero {
   text-align: center;
@@ -156,7 +159,6 @@ body {
   cursor: pointer;
 }
 .button.primary {
-  min-width: 200px;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-family: Roboto;
