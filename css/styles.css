@@ -181,9 +181,10 @@ body {
 }
 /* section */
 .section {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   justify-content: center;
+  outline: 1px solid tomato;
 }
 .section.team {
   padding-top: 94px;
@@ -262,10 +263,8 @@ body {
 .team-item:not(:last-child) {
   margin-right: 30px;
 }
-.team h3 {
-  text-align: center;
-}
-.team p {
+.team-text {
+  padding: 30px 58px;
   text-align: center;
 }
 /* footer nav */
@@ -295,7 +294,7 @@ body {
   color: var(--accent-color);
 }
 .footer {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 60px;
