@@ -307,6 +307,8 @@ body {
   padding-bottom: 60px;
   margin-right: auto;
   margin-left: auto;
+}
+.footer-line {
   background-color: #2f303a;
 }
 /* portfolio */
