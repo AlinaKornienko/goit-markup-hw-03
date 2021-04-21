@@ -308,9 +308,6 @@ body {
   margin-right: auto;
   background-color: #2f303a;
 }
-.footer-line {
-  background-color: #2f303a;
-}
 /* portfolio */
 .list-title-portfolio {
   color: var(--title-text-color);
